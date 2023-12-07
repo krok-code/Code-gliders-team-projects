@@ -2,33 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Boutique</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="./img/favicon.icon.ico" />
+    <link rel="stylesheet" href="./css/import.css" />
+    <script type="module" src="./main.js"></script>
   </head>
   <body>
-    <!-- HEADER - ANTONINA -->
-    <load ="partials/header.html" />
+    <include src="./partials/header.html"></include>
 
-    <!-- HERO - MARINA -->
-    <load ="partials/hero.html" />
+    <main>
+      <include src="./partials/hero.html"></include>
 
-    <!-- FILTERS - DMYTRO -->
-    <load ="partials/filters.html" />
+      <include src="./partials/filters.html"></include>
 
-    <!-- PRODUCTS-LIST - VITALY -->
-    <load ="partials/products-list.html" />
+      <include src="./partials/product-list.html"></include>
 
-    <!-- POPULAR-PRODUCTS - MYKOLA -->
-    <load ="partials/popular-products.html" />
+      <include src="./partials/scroll-up.html"></include>
+    </main>
 
-    <!-- DISCOUNT-PRODUCTS - MARINA -->
-    <load ="partials/discount-products.html" />
-
-    <!-- FOOTER - ANTONINA -->
-    <load ="partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
