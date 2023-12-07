@@ -1,11 +1,11 @@
 {
-  "name": "CodeGliders-team-projects",
+  "name": "code-gliders-teamp-rojects",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/CodeGliders-team-projects/",
+    "build": "vite build --base=/code-gliders-team-projects/",
     "preview": "vite preview"
   },
   "devDependencies": {
